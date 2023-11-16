@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 
-function TestPage(props) {
+function MyTestPage(props) {
   return (
     <Wrapper>
       <Title>{props.title}</Title>
@@ -34,4 +34,4 @@ const Wrapper = styled.div`
   max-width: 400px;
 `;
 
-export default TestPage;
+export default MyTestPage;
