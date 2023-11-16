@@ -1,3 +1,4 @@
+import GlobalStyle from "GlobalStyle";
 import Detail from "pages/Detail";
 import Home from "pages/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

@@ -12,8 +12,8 @@ function TestPage(props) {
 }
 
 const Title = styled.h1`
-  font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
+  //   font-family: "Helvetica", "Arial", sans-serif;
+  //   line-height: 1.5;
   font-size: 1.5rem;
   margin: 0;
   margin-bottom: 8px;
@@ -21,8 +21,8 @@ const Title = styled.h1`
 
 const Contents = styled.p`
   margin: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
+  //   font-family: "Helvetica", "Arial", sans-serif;
+  //   line-height: 1.5;
   font-size: 1rem;
 `;
 
