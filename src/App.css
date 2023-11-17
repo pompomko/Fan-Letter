@@ -4,6 +4,7 @@
   background-color: #61dafb;
 }
 
+.
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,3 +39,11 @@
     transform: rotate(360deg);
   }
 } */
+
+dwq {
+  background-image: url(assets/img/backbackgroundimage.jpg);
+  background-size: cover;
+  background-color: aqua;
+
+  overflow: hidden;
+}
