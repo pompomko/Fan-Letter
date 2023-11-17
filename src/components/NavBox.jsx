@@ -2,20 +2,32 @@ import React from "react";
 
 import styled from "styled-components";
 
-function NavBox(props) {
-  return <NavBox1>{/* <Title>{props.Title}</Title> */}</NavBox1>;
+function NavBox({ children, title }) {
+  return (
+    <>
+      <NavBox1>
+        <Title>{title}</Title>
+
+        {children}
+      </NavBox1>
+    </>
+  );
 }
-const NavBox1 = styled.div`
-  width: 100px;
-  height: 100px;
-  border: 3px solid red;
-  color: red;
+NavBox.defaultProps = {
+  title: "그룹명을 입력해주세요",
+};
+const NavBox1 = styled.header`
+  background-image: url(assets/images/espa.jpg);
+  text-align: center;
+  display: flex;
+  height: 300px;
 `;
-// const Title = styled.h1`
-//   font-family: "Helvetica", "Arial", sans-serif;
-//   line-height: 1.5;
-//   font-size: 1.5rem;
-//   margin: 0;
-//   margin-bottom: 8px;
-// `;
+const Title = styled.h1`
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 30px;
+
+  margin-bottom: 8px;
+
+  color: blanchedalmond;
+`;
 export default NavBox;

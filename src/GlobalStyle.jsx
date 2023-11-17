@@ -127,10 +127,16 @@ table {
 *::before,
 *::after {
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
     body {
         font-family: "Helvetica", "Arial", sans-serif;
         line-height: 1.5;
+        
+  margin-left: auto;
+  margin-right: auto;
+  
         
     }`;
 export default GlobalStyle;
