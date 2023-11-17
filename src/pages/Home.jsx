@@ -10,12 +10,11 @@ function Home() {
   return (
     <div>
       <NavBox title="에스파 펜레터 모음집">'Next Level'</NavBox>
-      <TextInput />
 
       <TestPage
-        title="에스파 펜레터d입력창"
+        title="에스파 펜레터입력창"
         contents="아래에 내용을 적어주세요"
-      />
+      ></TestPage>
       <br />
       <button
         onClick={() => {
