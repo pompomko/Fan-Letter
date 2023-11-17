@@ -10,8 +10,14 @@ function TextInput() {
   return (
     <>
       <div>
-        입력값 :{""}
-        <input type="text" value={star} onChange={handleChange} />
+        :{""}
+        <input
+          type="text"
+          value={star}
+          onChange={handleChange}
+          placeholder="최대 20글자까지 작성할 수 있습니다."
+          maxLength={20}
+        />
         <br />
         {star}
       </div>
