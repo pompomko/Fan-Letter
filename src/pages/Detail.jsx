@@ -21,7 +21,6 @@ function Detail() {
         <h1>상세페이지 글자크기 확인중</h1>
         <TestPage title="에스파 펜레터" contents="아래에 내용을 적어주세요" />
       </div>
-      <p>dd</p>
     </>
   );
 }

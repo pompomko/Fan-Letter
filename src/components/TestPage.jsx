@@ -2,6 +2,7 @@ import React from "react";
 
 import styled from "styled-components";
 import TextInput from "./TextInput";
+import Input2 from "./Input2";
 
 function MyTestPage(props) {
   return (
@@ -13,8 +14,8 @@ function MyTestPage(props) {
         <TextInput></TextInput>
       </Section>
       <Section>
-        <Label htmlFor="Nickname">비밀번호</Label>
-        <TextInput></TextInput>
+        <Label htmlFor="Nickname">내용</Label>
+        <Input2></Input2>
       </Section>
     </Wrapper>
   );
